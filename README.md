@@ -10,8 +10,8 @@ Your Name: `Richard Guarnieri`
 Email: `richard.gm@outlook.com`
 LinkedIn Username: `rguarnieri`
 Twitter Username: `ric_guarnieri`
-Project Title: `The README.md Template`
-Project Description: `A README.md template for your projects!`
+Project Title: `Note Taker`
+Project Description: `A note-taking Express.js application!`
 -->
 
 <!-- Please also update the following links -->
@@ -56,9 +56,9 @@ Project Description: `A README.md template for your projects!`
     <a href="https://github.com/richardguarnieri/readme-template">
         <img src="./img/logo.png" alt="Logo" width="300" height="auto">
     </a>
-    <h1 align="center">The README.md Template</h1>
+    <h1 align="center">Note Taker</h1>
     <div>
-        A README.md template for your projects!
+        A note-taking Express.js application!
         <br>
         <a href="https://github.com/richardguarnieri/readme-template">
             <strong>Explore Documentation</strong>
@@ -217,17 +217,30 @@ If you followed tutorials, include links to those here as well.
 
 <!-- Miscellaneous -->
 ## Miscellaneous
-**Optional:** Use this section to disclose any miscellaneous information about the project.
 ### User Story
 ```
-Example
+AS A small business owner
+I WANT to be able to write and save notes
+SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ```
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
 ### Acceptance Criteria
 ```
-Example
+GIVEN a note-taking application
+WHEN I open the Note Taker
+THEN I am presented with a landing page with a link to a notes page
+WHEN I click on the link to the notes page
+THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
+WHEN I enter a new note title and the note’s text
+THEN a Save icon appears in the navigation at the top of the page
+WHEN I click on the Save icon
+THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
+WHEN I click on an existing note in the list in the left-hand column
+THEN that note appears in the right-hand column
+WHEN I click on the Write icon in the navigation at the top of the page
+THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
