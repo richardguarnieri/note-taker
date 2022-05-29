@@ -13,6 +13,10 @@ app.get('/notes', (req, res) => {
     res.status(200).sendFile(path.join(__dirname, 'public', 'notes.html'));
 })
 
+app.get('*', (req, res) => {
+    res.status(200).sendFile(path.join(__dirname, 'public', 'index.html'));
+})
+
 app.listen(port, () => {
     console.log(`Express Web Server Listening on localhost:${port}`);
 })
