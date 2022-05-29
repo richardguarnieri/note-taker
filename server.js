@@ -4,7 +4,7 @@ const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
 
 // Path to the JSON "database"
-const dbPath = './db/db2.json';
+const dbPath = './db/db.json';
 
 // Initialize the Express Web Server Application
 const app = express()
