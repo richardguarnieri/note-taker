@@ -83,8 +83,9 @@ const handleNoteDelete = (e) => {
   e.stopPropagation();
 
   const note = e.target;
+  // console.log(note.parentElement); AAAAAAAASDADQWDQWDQDQDQWDDQDQDQWD
   const noteId = JSON.parse(note.parentElement.getAttribute('data-note')).id;
-
+  // console.log(JSON.parse(note.parentElement.getAttribute('data-note')).title); AAAAAAAASDADQWDQWDQDQDQWDDQDQDQWD
   if (activeNote.id === noteId) {
     activeNote = {};
   }

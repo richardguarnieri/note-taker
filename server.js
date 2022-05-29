@@ -1,27 +1,11 @@
 const express = require('express');
 const path = require('path');
 const fs = require('node:fs/promises');
-
-// const util = require('util');
-// const readFilePromise = util.promisify(fs.readFile);
-// const writeFilePromise = util.promisify(fs.writeFile);
+const { v4: uuidv4 } = require('uuid');
 
 // Import DB JSON
-const dbNotesPath = './db/db.json';
-const dbNotes = require('./db/db.json');
-
-
-// const testFn = async () => {
-//     console.log('hello');
-//     const xxx = await fs.readFile('./db/db.json', 'utf8')
-//     console.log(xxx);
-//     console.log('WORLD');
-// }
-
-// testFn();
-
-
-console.log(dbNotes);
+const dbNotesPath = './db/db2.json';
+const dbNotes = require('./db/db2.json');
 
 // Start Express Web Server Application
 const app = express()
@@ -46,33 +30,37 @@ app.get('/api/notes', (req, res) => {
 // body, add it to the db.json file, and then return the new note 
 // to the client
 
-
-const readFn = async (origin) => {
-    try {
-        const content = await fs.readFile(origin, 'utf8');
-        const contentParsed = JSON.parse(content);
-        return contentParsed;
-    } catch (err) {
-        console.log(err);
-    }
-};
-
 const writeFn = async (destination, content) => {
     try {
-        const notes = await fs.readFile(destination, content);
-        const currenNotesParsed = JSON.parse(currentNotes);
-        return currenNotesParsed;
+        await fs.writeFile(destination, JSON.stringify(content))
+        console.log(`Data written to ${destination}`);
     } catch (err) {
         console.log(err);
     }
 };
+
+ const readAndWriteFn = async (filePath, data) => {
+    try {
+        const content = await fs.readFile(filePath, 'utf8');
+        const contentParsed = JSON.parse(content);
+        contentParsed.push(data);
+        writeFn(filePath, contentParsed);
+    } catch (err) {
+        console.log(err);
+    }
+};
+
 
 
 app.post('/api/notes', (req, res) => {
-    console.log(req.body);
-
-    const notes = readFn(dbNotesPath);
-    notes.push(req.body);
+    const { title, text } = req.body;
+    const note = {
+        title,
+        text,
+        id: uuidv4()
+    }
+    readAndWriteFn(dbNotesPath, note);
+    res.status(200).send();
 
     
 });
@@ -82,9 +70,6 @@ app.post('/api/notes', (req, res) => {
 app.get('*', (req, res) => {
     res.status(200).sendFile(path.join(__dirname, 'public', 'index.html'));
 })
-
-
-
 
 app.listen(port, () => {
     console.log(`Express Web Server Listening on localhost:${port}`);
