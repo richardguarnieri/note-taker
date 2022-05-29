@@ -1,13 +1,25 @@
 const express = require('express');
 const path = require('path');
 const fs = require('node:fs/promises');
-const util = require('util');
-const readFilePromise = util.promisify(fs.readFile);
-const writeFilePromise = util.promisify(fs.writeFile);
+
+// const util = require('util');
+// const readFilePromise = util.promisify(fs.readFile);
+// const writeFilePromise = util.promisify(fs.writeFile);
 
 // Import DB JSON
 const dbNotesPath = './db/db.json';
 const dbNotes = require('./db/db.json');
+
+
+// const testFn = async () => {
+//     console.log('hello');
+//     const xxx = await fs.readFile('./db/db.json', 'utf8')
+//     console.log(xxx);
+//     console.log('WORLD');
+// }
+
+// testFn();
+
 
 console.log(dbNotes);
 
@@ -35,26 +47,34 @@ app.get('/api/notes', (req, res) => {
 // to the client
 
 
-readFn = async (filePath) => {
+const readFn = async (origin) => {
     try {
-        const notesArray = [];
-        const currentNotes = await readFilePromise(filePath);
-        console.log(currentNotes);
-        // console.log(notesArray);
-        // notesArray.push(currentNotes);
-        // console.log(notesArray);
+        const content = await fs.readFile(origin, 'utf8');
+        const contentParsed = JSON.parse(content);
+        return contentParsed;
     } catch (err) {
         console.log(err);
     }
-}
+};
+
+const writeFn = async (destination, content) => {
+    try {
+        const notes = await fs.readFile(destination, content);
+        const currenNotesParsed = JSON.parse(currentNotes);
+        return currenNotesParsed;
+    } catch (err) {
+        console.log(err);
+    }
+};
 
 
 app.post('/api/notes', (req, res) => {
-    // console.log(req.body);
+    console.log(req.body);
 
-    readFn(dbNotesPath);
-    // const currentNotes = await fs.readFile(dbNotes)
-    // console.log(currentNotes)
+    const notes = readFn(dbNotesPath);
+    notes.push(req.body);
+
+    
 });
 
 
