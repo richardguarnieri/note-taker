@@ -17,7 +17,7 @@ Project Description: `A note-taking Express.js application!`
 <!-- Please also update the following links -->
 [logo]: ./img/logo.png
 [application-image]: ./img/app-image.png
-[application-url]: https://example.com/
+[application-url]: https://note-taker-expressjs-app.herokuapp.com/
 
 <div id="home"><div> 
 
@@ -84,9 +84,6 @@ Project Description: `A note-taking Express.js application!`
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Credits and Acknowledgments](#credits-and-acknowledgments)
-* [Features](#features)
-* [Tests](#tests)
 * [Miscellaneous](#miscellaneous)
     * [User Story](#user-story)
     * [Acceptance Criteria](#acceptance-criteria)
@@ -98,7 +95,7 @@ Project Description: `A note-taking Express.js application!`
 
 [![Application Image][application-image]][application-url]
 
-This is a web application that can be used to write and save notes. It uses an Express.js back end and will save and retrieve notes data from a JSON file deployed on Heroku.
+This is a web application that can be used to write and save notes. It uses an Express.js back end and will save and retrieve notes data from a JSON file. The application is deployed on Heroku.
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
@@ -146,10 +143,6 @@ _For more examples, please refer to the [Documentation][documentation-url]._
 
 <!-- Contribuiting -->
 ## Contributing
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-**Example of this README.md Contributing message:**
-
 Contributions are much welcomed! If you have suggestions to make this application better, please fork the repo and create a pull request. 
 
 You can also open an issue [here][github-issues-url] and tag it with the **"enhancement"** label.
@@ -159,10 +152,6 @@ You can also open an issue [here][github-issues-url] and tag it with the **"enha
 
 <!-- License -->
 ## License
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
-**Example of this README.md License message:**
-
 This project is licensed under the terms of the MIT license. 
 
 See `LICENSE` for more information.
@@ -174,32 +163,7 @@ See `LICENSE` for more information.
 ## Contact
 Richard Guarnieri: richard.gm@outlook.com · LinkedIn: [rguarnieri][linkedin-url] · Twitter: [@ric_guarnieri][twitter-url]
 
-Application URL: [https://example.com/][application-url]
-
-<p align="right"> - <a href="#home">Return to Home</a></p>
-
-
-<!-- Credits and Acknowledgments -->
-## Credits and Acknowledgments
-Use this section to list your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-<p align="right"> - <a href="#home">Return to Home</a></p>
-
-
-<!-- Features -->
-## Features
-**Optional:** If your project has a lot of features, list them here.
-
-<p align="right"> - <a href="#home">Return to Home</a></p>
-
-
-<!-- Tests -->
-## Tests
-**Optional:** Feel free to go the extra mile and write tests for your application. Then provide examples on how to run them here.
+Application URL: [https://note-taker-expressjs-app.herokuapp.com/][application-url]
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
