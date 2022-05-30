@@ -16,7 +16,7 @@ Project Description: `A note-taking Express.js application!`
 
 <!-- Please also update the following links -->
 [logo]: ./img/logo.png
-[application-image]: ./img/app-image.webp
+[application-image]: ./img/app-image.png
 [application-url]: https://example.com/
 
 <div id="home"><div> 
