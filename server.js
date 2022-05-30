@@ -8,7 +8,7 @@ const dbPath = './db/db.json';
 
 // Initialize the Express Web Server Application
 const app = express()
-const port = 3001;
+const port = process.env.PORT || 3001;
 
 // Set up middleware stack
 app.use(express.static('./public'));
