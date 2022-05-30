@@ -75,8 +75,6 @@ Project Description: `A note-taking Express.js application!`
 
 <!-- Table of Contents -->
 ## Table of Contents
-If your README is long, you may choose to use this table of contents to make it easy for users to find what they need.
-
 * [The Project](#the-project)
     * [Technology Stack](#technology-stack)
 * [Getting Started](#getting-started)
@@ -100,25 +98,16 @@ If your README is long, you may choose to use this table of contents to make it 
 
 [![Application Image][application-image]][application-url]
 
-Use this section to provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer should **never** be "because it was a homework assignment!")
-- What problem does it solve?
-- What did you learn?
+This is a web application that can be used to write and save notes. It uses an Express.js back end and will save and retrieve notes data from a JSON file deployed on Heroku.
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
 ### Technology Stack
-Use this section to list the technologies used in the project - examples:
-
 * [HTML](https://html.spec.whatwg.org/)
 * [CSS](https://www.w3.org/TR/CSS/#css)
 * [JavaScript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
-* [SASS](https://sass-lang.com/)
-* [Tailwind CSS](https://tailwindcss.com/)
 * [Node.js](https://nodejs.org/en/)
-* [React.js](https://reactjs.org/)
+* [Express.js](https://expressjs.com/)
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
@@ -130,12 +119,12 @@ Use this section to explain how to get the application started - this includes t
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
 ### Prerequisites
-Use this section to list the prerequisites to run the application.
+Only a web brower is required to run the application.
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
 ### Installation
-Use this section to describe what are the steps required to install your project. Provide a step-by-step description of how to get the development environment running.
+You will not have to install anything to run the application.
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
