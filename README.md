@@ -5,7 +5,7 @@
 * Windows: CRTL + Shift + L
 
 GitHub Username: `richardguarnieri`
-GitHub Repository: `readme-template`
+GitHub Repository: `note-taker`
 Your Name: `Richard Guarnieri`
 Email: `richard.gm@outlook.com`
 LinkedIn Username: `rguarnieri`
@@ -25,23 +25,23 @@ Project Description: `A note-taking Express.js application!`
 <!-- These were created using https://shields.io/ - feel free to replace / create yours by modifying links below: -->
 
 <div align="center">
-    <a href="https://github.com/richardguarnieri/readme-template/graphs/contributors">
-        <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/richardguarnieri/readme-template?style=for-the-badge">
+    <a href="https://github.com/richardguarnieri/note-taker/graphs/contributors">
+        <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/richardguarnieri/note-taker?style=for-the-badge">
     <a>
-     <a href="https://github.com/richardguarnieri/readme-template/network/members">
-        <img alt="GitHub forks" src="https://img.shields.io/github/forks/richardguarnieri/readme-template?style=for-the-badge">
+     <a href="https://github.com/richardguarnieri/note-taker/network/members">
+        <img alt="GitHub forks" src="https://img.shields.io/github/forks/richardguarnieri/note-taker?style=for-the-badge">
     <a>
-     <a href="https://github.com/richardguarnieri/readme-template/stargazers">
-        <img alt="GitHub stars" src="https://img.shields.io/github/stars/richardguarnieri/readme-template?style=for-the-badge">
+     <a href="https://github.com/richardguarnieri/note-taker/stargazers">
+        <img alt="GitHub stars" src="https://img.shields.io/github/stars/richardguarnieri/note-taker?style=for-the-badge">
     <a>
-     <a href="https://github.com/richardguarnieri/readme-template/issues">
-        <img alt="GitHub issues" src="https://img.shields.io/github/issues/richardguarnieri/readme-template?style=for-the-badge">
+     <a href="https://github.com/richardguarnieri/note-taker/issues">
+        <img alt="GitHub issues" src="https://img.shields.io/github/issues/richardguarnieri/note-taker?style=for-the-badge">
     <a>
-     <a href="https://github.com/richardguarnieri/readme-template/blob/main/LICENSE">
-        <img alt="GitHub license" src="https://img.shields.io/github/license/richardguarnieri/readme-template?label=license&style=for-the-badge">
+     <a href="https://github.com/richardguarnieri/note-taker/blob/main/LICENSE">
+        <img alt="GitHub license" src="https://img.shields.io/github/license/richardguarnieri/note-taker?label=license&style=for-the-badge">
     <a>
-     <a href="https://github.com/richardguarnieri/readme-template/commits/main">
-        <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/richardguarnieri/readme-template?style=for-the-badge">
+     <a href="https://github.com/richardguarnieri/note-taker/commits/main">
+        <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/richardguarnieri/note-taker?style=for-the-badge">
     <a>
     <a href="https://www.linkedin.com/in/rguarnieri/">
         <img alt="LinkedIn shield" src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555">
@@ -53,21 +53,21 @@ Project Description: `A note-taking Express.js application!`
 <!-- Header -->
 
 <div align="center">
-    <a href="https://github.com/richardguarnieri/readme-template">
+    <a href="https://github.com/richardguarnieri/note-taker">
         <img src="./img/logo.png" alt="Logo" width="300" height="auto">
     </a>
     <h1 align="center">Note Taker</h1>
     <div>
         A note-taking Express.js application!
         <br>
-        <a href="https://github.com/richardguarnieri/readme-template">
+        <a href="https://github.com/richardguarnieri/note-taker">
             <strong>Explore Documentation</strong>
         </a>
         <br>
         <br>
-        <a href="https://github.com/richardguarnieri/readme-template">View Demo</a>
+        <a href="https://github.com/richardguarnieri/note-taker">View Demo</a>
         ·
-        <a href="https://github.com/richardguarnieri/readme-template/issues">Report Bug / Request Feature</a>
+        <a href="https://github.com/richardguarnieri/note-taker/issues">Report Bug / Request Feature</a>
     </div>
 </div>
 <br>
@@ -207,22 +207,22 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 <!-- References, Links and Images -->
 <!-- Badges / Shields Styles -->
-[github-contributors-shield]: https://img.shields.io/github/contributors/richardguarnieri/readme-template?style=for-the-badge
-[github-forks-shield]: https://img.shields.io/github/forks/richardguarnieri/readme-template?style=for-the-badge
-[github-stars-shield]: https://img.shields.io/github/stars/richardguarnieri/readme-template?style=for-the-badge
-[github-issues-shield]: https://img.shields.io/github/issues/richardguarnieri/readme-template?style=for-the-badge
-[github-license-shield]: https://img.shields.io/github/license/richardguarnieri/readme-template?style=for-the-badge
-[github-last-commit-shield]: https://img.shields.io/github/last-commit/richardguarnieri/readme-template?style=for-the-badge
+[github-contributors-shield]: https://img.shields.io/github/contributors/richardguarnieri/note-taker?style=for-the-badge
+[github-forks-shield]: https://img.shields.io/github/forks/richardguarnieri/note-taker?style=for-the-badge
+[github-stars-shield]: https://img.shields.io/github/stars/richardguarnieri/note-taker?style=for-the-badge
+[github-issues-shield]: https://img.shields.io/github/issues/richardguarnieri/note-taker?style=for-the-badge
+[github-license-shield]: https://img.shields.io/github/license/richardguarnieri/note-taker?style=for-the-badge
+[github-last-commit-shield]: https://img.shields.io/github/last-commit/richardguarnieri/note-taker?style=for-the-badge
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 
 <!-- Badges / Shields URL -->
-[github-contributors-url]: https://github.com/richardguarnieri/readme-template/graphs/contributors
-[github-forks-url]: https://github.com/richardguarnieri/readme-template/network/members
-[github-stars-url]: https://github.com/richardguarnieri/readme-template/stargazers
-[github-issues-url]: https://github.com/richardguarnieri/readme-template/issues
-[github-license-url]: https://github.com/richardguarnieri/readme-template/blob/main/LICENSE
+[github-contributors-url]: https://github.com/richardguarnieri/note-taker/graphs/contributors
+[github-forks-url]: https://github.com/richardguarnieri/note-taker/network/members
+[github-stars-url]: https://github.com/richardguarnieri/note-taker/stargazers
+[github-issues-url]: https://github.com/richardguarnieri/note-taker/issues
+[github-license-url]: https://github.com/richardguarnieri/note-taker/blob/main/LICENSE
 [linkedin-url]: https://linkedin.com/in/rguarnieri
 
 <!-- Non Badge / Shield Reference Links -->
-[documentation-url]: https://github.com/richardguarnieri/readme-template
+[documentation-url]: https://github.com/richardguarnieri/note-taker
 [twitter-url]: https://twitter.com/ric_guarnieri
