@@ -111,7 +111,7 @@ This is a web application that can be used to write and save notes. It uses an E
 
 <!-- Getting Started -->
 ## Getting Started
-Use this section to explain how to get the application started - this includes the prerequisites and the installation sections. Feel free to add more sections as needed such as testing, deployment, etc.
+Make sure you have an active internet connection - that's all!
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
@@ -128,13 +128,19 @@ You will not have to install anything to run the application.
 
 <!-- How to Use -->
 ## How to Use
-Use this section to provide instructions and examples for use. Include screenshots as needed.
+Having a good note taking app is crucial to help you be more organized and more productive - it is very important for professionals to organize their thoughts and keep track of the tasks at hand. It is for this reason that this note-taking app was built.
 
-To add a screenshot, create an `img` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+Please follow [this link](https://note-taker-expressjs-app.herokuapp.com/) to launch the app.
 
-```md
-![alt text](assets/images/screenshot.png)
-```
+When you open the app, you will see a landing page with a link to the notes taking page. When clicked, you will be routed to a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column.
+
+
+When you enter a new note title and text, a save icon will appear in the navigation at the top of the page. When clicked, the  note is saved and appears in the left-hand column with the other existing notes.
+
+If the user clicks on an existing note in the list in the left-hand column, that note appears in the right-hand column.
+
+The users can also **delete** notes by clicking the red trash-can icon that appears in the left-hand column next to the saved notes.
+
 
 _For more examples, please refer to the [Documentation][documentation-url]._
 
